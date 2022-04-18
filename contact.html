@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact us</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <header>
+      <img src="Logo.png" Class="logo" alt="logo">
+      <h1 id="site-title" class=font1> Recipe Repository </h1>
+    
+      <nav>    
+        <a href="index.html" id="navhder"><button> Home </button></a>
+        <a href="contact.html" id="navhder"><button> Contact Us </button></a
+      </nav>
+    </header>
+    
+    <section  class="web-body">
+      <section id="contact-form">
+        
+        <form id="myform" action="https://formspree.io/f/mwkyrkgj" Method="POST">
+
+          <h2 Class="font1">Contact Us</h2><br>
+          
+          <div class="form-input">
+            <label class="font1">
+                First Name
+              <input name="First Name" type="text" class="input-contact"/>
+            </label>
+          </div>
+
+          <br>
+          
+          <div class="form-input" >
+            <label class="font1">
+                Last Name
+              <input name="Last Name" type="text"class="input-contact"/>
+            </label>
+          </div>
+
+          <br>
+          
+          <div Class="form-input" >
+            <label class="font1">
+                Email
+              <input name="Email" type="email" class="input-contact"/>
+            </label>
+          </div>
+
+          <br>
+          
+          <div Class="form-input" >
+            <label class="font1">
+               Message   <br>      
+              <textarea name="Message" id="area-text" class="input-contact" ></textarea>
+            </label>
+          </div>
+          
+          <div class="Submit-bttn">
+            <button type="submit" form="myform" value="Submit" id="form-button">Submit</button>
+          </div>
+          
+        </form>
+        
+      </section>
+    </section>
+    
+  </body>
+</html>

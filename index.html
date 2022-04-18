@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Recipe Repository</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
+    
+  </head>
+  
+  <body>
+    <header>
+      <img src="Logo.png" Class="logo" alt="logo">
+        <h1 id="site-title" class="font1"> Recipe Repository </h1>
+        <nav>
+          <a href="index.html" id="navhder"><button>Home</button></a>
+          <a href="#src-bar-cntr" id="navhder"><button>Look for Recipe</button></a>
+          <a href="contact.html" id="navhder"><button>Contact Us</button></a>
+        </nav>
+    </header>
+    
+    <section Class="web-body">
+
+      <div Class="feature">
+        <h2 class="font1"><u>Featured Dish:</u></h2>
+          <details>
+            <summary>
+              <h3 class="font1">Bake and Shark-</h3>
+            </summary>
+            <p>Bake and shark is a traditional fast food dish of Trinidadian cuisine prepared using fried flatbread and shark meat and topped with condiments and other ingredients. It is a classic street food dish that is usually sold at food stalls all over Trinidad and Tobago.</p>
+          </details>
+  
+        <div class="iframe-container">
+          <iframe src="https://www.youtube.com/embed/Jers2RUDLe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+        </div>
+      </div>
+    
+      <div id="src-bar-cntr" class="src-bar-cntr">
+        <input type="search" id="src-bar" placeholder="Enter ingredients separated with a comma" Value="" autocomplete="off" >
+ <button id ="src-bttn" type="button" 
+ onclick="getRecipes()"> Search</button>
+      </div>
+        
+      <div id="results">
+        <h2 class="font1">Results for your query:</h2>
+           <table>
+            <tbody id="res-table">
+            
+            </tbody>
+          </table>
+      </div>
+    </section>    
+  </body>
+</html>
