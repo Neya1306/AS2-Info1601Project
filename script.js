@@ -3,7 +3,7 @@ var fbi='/findByIngredients?';
 var p1='https://api.spoonacular.com/recipes';
 var info='/information?';
 var ingredients='&ingredients=';
-var key='apiKey=afe32ef94f4540639d6045c9e7c8da1e';
+var key='apiKey=6fbf70c1ace14877a746d628166f13de';
 var resultNum='&number=10';
 var picture='Images/';
 var pType='.jpg';
